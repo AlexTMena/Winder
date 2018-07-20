@@ -1,2 +1,69 @@
 /* Fonts */
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+ */
+ /* color */
+/* footer: #333232 */
+/* dark green-gray #bbcbcb */
+/* light green-gray: #dbecec */
+/* background: #ffffff */
 
+
+/* header */
+nav {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+/* jumbotron */
+.jumbotron {
+    background: url(images/jumbotron-dark.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 90vh;
+    border-radius: 0;
+}
+
+.jumbotron h3, .jumbotron p {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 50%;
+    text-shadow: 2px 2px 10px #000000;
+}
+
+.jumbotron h3 {
+    font-weight: bold;
+}
+
+/* about us */
+
+.icon-container {
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Portfolio */
+
+#portfolio {
+    color: white;
+}
+
+#portfolio .container {
+    background-color: #bbcbcb;
+    padding: 20px;
+}
+
+/* #portfolio .image-list img {
+    margin: 10px 0;
+    height: auto;
+    width: auto;
+    max-width: 25%;
+} */
+
+/* News */
+
+/* Footer */
