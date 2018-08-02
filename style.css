@@ -11,6 +11,11 @@ font-family: 'Oswald', sans-serif;
 
 
 /* header */
+
+body {
+    border-top: 10px solid #333232;
+}
+
 nav {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
@@ -46,24 +51,70 @@ nav {
     margin: 20px;
 }
 
+.icon-container img {
+    max-height: 100px;
+}
+
 /* Portfolio */
 
 #portfolio {
     color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 
 #portfolio .container {
     background-color: #bbcbcb;
     padding: 20px;
+    box-shadow: 2px 2px 10px #000000;
 }
 
-/* #portfolio .image-list img {
-    margin: 10px 0;
-    height: auto;
-    width: auto;
-    max-width: 25%;
-} */
+#portfolio img {
+    margin-top: 10px;
+}
+
+#portfolio .image-list img:hover {
+    cursor: pointer;
+}
 
 /* News */
+#news .container {
+    margin-top: 30px;
+    padding-top: 10px
+}
+
+#news h4 {
+    padding: 10px;
+}
+
+#news .row div {
+    padding: 10px;
+}
+
+.new-entry {
+    background-color: #dbecec;
+}
+
+
+.newsImgContainer img {
+    width: 50%;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.newsImgContainer {
+    padding: 0 !important;
+}
+
+#news p {
+    text-align: left;
+}
 
 /* Footer */
+
+#footer {
+    background-color: #333232;
+    padding: 20px;
+    color: #fffcf9;
+}
